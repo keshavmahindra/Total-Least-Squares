@@ -23,14 +23,13 @@ regdata = cbind(y, X)
 
 # A function which returns the beta coefficients of the TLS regression
 TLS = function(X, y) {
-    
+    # Casting to data to the right type
     X = as.matrix(X)
     y = as.vector(y)
     
     # Just in case 
     stopifnot(is.matrix(X) & is.vector(y))
     
-    # Casting to data to the right type
     numvar = ncol(X)
     mydata = cbind(X, y)
     
