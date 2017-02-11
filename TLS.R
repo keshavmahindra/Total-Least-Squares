@@ -3,6 +3,11 @@
 # Created by Keshav Mahindra 
 ##################################################################################
 
+# TODO:
+# Regression Diagnostics:
+# * Correlation/R Squared
+# * Standard Errors for t-stats and p-values
+
 rm(list = ls())
 
 # Need some data to play with
