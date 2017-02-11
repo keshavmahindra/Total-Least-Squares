@@ -4,10 +4,16 @@
 ##################################################################################
 
 # TODO:
+<<<<<<< HEAD
 # * Regression Diagnostics: 
 #   ** Correlation/R^2 
 #   ** Standard Errors for t-stats and p-values
 
+=======
+# Regression Diagnostics:
+# * Correlation/R Squared
+# * Standard Errors for t-stats and p-values
+>>>>>>> 4ac3ef22d348646d0b82a1178ffed71cb3ad194a
 
 rm(list = ls())
 
